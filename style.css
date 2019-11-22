@@ -1,0 +1,198 @@
+body {
+	margin: 0;
+}
+
+#main {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+#nav-top {
+	position: absolute;
+	top: 0;
+	width: 280px;
+	height: 50px;
+	right: 0;
+}
+
+.twolinks:link {
+	color: black;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 13px;
+	display: inline;
+	margin-left: 15px;
+	position: relative;
+	top: 20px;
+}
+
+.twolinks:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.twolinks:hover {
+	text-decoration: underline;
+}
+
+#dots {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	top: 17px;
+	margin-left: 15px;
+}
+
+#connexion-div {
+	position: absolute;
+	width: 85px;
+	height: 27px;
+	background-color: #4285f4;
+	left: 167px;
+	top: 17px;
+}
+
+#connexion-div p{
+	font-family: sans-serif;
+	text-align: center;
+	color: #ffffff;
+	margin-top: 5px;
+	font-size: 13px;
+}
+
+#center-div {
+	position: absolute;
+	width: 600px;
+	height: 350px;
+	top: 50%;
+	margin-top: -220px;
+	left: 50%;
+	margin-left: -302px;
+	background-color: ;
+}
+
+#googlelogo {
+	position: absolute;
+	height: 92px;
+	width: 272px;
+	left: 50%;
+	margin-left: -136px;
+}
+
+#searchbox {
+	position: absolute;
+	background-color: white;
+	width: 600px;
+	height: 40px;
+	top: 120px;
+	border-radius: 24px;
+	border: 1px solid #dfe1e5;
+	color: black;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+
+#searchbox:hover {
+	box-shadow: 1px 1px 7px #e3e3e3;
+}
+
+
+.twobuttons {
+	position: absolute;
+	width: 148px;
+	height: 35px;
+	background-color: #f2f2f2;
+	top: 195px;
+	text-align: center;
+	border-radius: 4px;
+
+}
+
+.twobuttons p{
+	font-family: sans-serif;
+	/*font-weight: bold;*/
+	font-size: 15px;
+	color: #5f6368;
+	margin-top: 9px;
+}
+
+.twobuttonss:link {
+	text-decoration: none;
+	color: #5f6368;
+}
+
+.twobuttonss:visited {
+	text-decoration: none;
+	color: #5f6368;
+}
+
+.twobuttons:hover{
+	background-color: #f5f5f5;
+	border: 0.8px solid #b0b0b0;
+}
+
+#nav-bottom {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	bottom: 0;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+}
+
+#nav-bottom-left {
+	position: absolute;
+	width: 50%;
+	height: 18px;
+	left: 0;
+	top: 50%;
+	margin-top: -10px;
+}
+
+.nav-bottom-a:link {
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #777;
+	font-size: 13.5px;
+	margin-left: 30px;
+	margin-right: -12px;
+
+}
+
+.nav-bottom-a:visited {
+	text-decoration: none;
+	color: #777;
+}
+
+.nav-bottom-a:hover {
+	text-decoration: underline;
+}
+
+#nav-bottom-right {
+	position: absolute;
+	width: 30%;
+	height: 18px;
+	right: 0px;
+	top: 50%;
+	margin-top: -10px;
+}
+
+#nav-bottom1 {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	bottom: 40px;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+}
+
+#nav-bottom-b{
+	font-family: sans-serif;
+	color: rgb(0,0,0,0.54);
+	font-size: 15px;
+	margin-left: 30px;
+}
